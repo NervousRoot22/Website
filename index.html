@@ -3,10 +3,20 @@
   <head>
       <title>TABLE BUFFET</title>
       <link rel="stylesheet" type="text/css" href="style.css"></link>
+      <script>
+        function open_CT(){
+          window.open("file:///C:/Users/ayush/Desktop/WEBSITE/create_table.html");
+        }
+        function open_AT(){
+          window.open("file:///C:/Users/ayush/Desktop/WEBSITE/alter_table.html");
+        }
+      </script>
   </head>
   <body>
       <div class="container">
-           <button class="btn-1">LOGIN</button>
+           <button class="btn-1" onclick="open_CT()">CREATE TABLE</button>
+           <button class="btn-2">VIEW TABLE</button>
+           <button class="btn-3" onclick="open_AT()">ALTER TABLE</button>
       </div>
 
       

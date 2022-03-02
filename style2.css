@@ -14,7 +14,7 @@
     min-height: 100vh;
 }
 
-.btn-1,.btn-2,.btn-3{
+.btn-1,.btn-2{
     width: 300px;
     height: 100px;
     border: none;
@@ -28,12 +28,12 @@
     z-index: 1;
 }
 
-.btn-1:hover,.btn-2:hover,.btn-3:hover{
+.btn-1:hover,.btn-2:hover{
     color: #fff;
     cursor: pointer;
 }
 
-.btn-1:before,.btn-2:before,.btn-3:before{
+.btn-1:before,.btn-2:before{
     transition: 0.5s all ease;
     position: absolute;
     top: 0;
@@ -45,7 +45,7 @@
     background-color: #42fbf2;
 }
 
-.btn-1:hover:before,.btn-2:hover:before,.btn-3:hover:before{
+.btn-1:hover:before,.btn-2:hover:before{
     transition: 0.5s all ease;
     left: 0;
     right: 0;
